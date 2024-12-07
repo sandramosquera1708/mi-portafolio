@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;background-image: url('../media/fondo.jpg'); /* Ajusta según la ubicación */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: rgba(76, 175, 80, 0.8); /* Verde oscuro con transparencia */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con un poco de transparencia */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4caf50; /* Verde para los encabezados de sección */
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #4caf50; /* Verde para el botón */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(76, 175, 80, 0.8); /* Verde oscuro con transparencia */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
